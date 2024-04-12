@@ -19,3 +19,7 @@ date: 2024-04-02
 ## How to interact with recruiters...
 
 * [Career Advice Nobody Gave Me: Never Ignore a Recruiter](https://index.medium.com/career-advice-nobody-gave-me-never-ignore-a-recruiter-4474eac9556)
+
+## Salary Negotiation
+
+* [Never Split The Difference](https://www.blackswanltd.com/never-split-the-difference)
