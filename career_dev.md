@@ -16,6 +16,11 @@ date: 2024-04-02
 * [/r/resumes: Resume Writing Guide](https://www.reddit.com/r/resumes/wiki/index/faq/)
 * [The Cloud Resume Challenge](https://cloudresumechallenge.dev/)
 
+### Resume Writing Services
+
+* [TopResume](https://www.topresume.com/)
+  _Some members of the community have had luck with this service, including this author. ~ Alex Kraker_
+
 ## How to interact with recruiters...
 
 * [Career Advice Nobody Gave Me: Never Ignore a Recruiter](https://index.medium.com/career-advice-nobody-gave-me-never-ignore-a-recruiter-4474eac9556)
