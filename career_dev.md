@@ -28,3 +28,7 @@ date: 2024-04-02
 ## Salary Negotiation
 
 * [Never Split The Difference](https://www.blackswanltd.com/never-split-the-difference)
+
+## Career Planning
+
+* [80,000 Hours](https://80000hours.org/)
