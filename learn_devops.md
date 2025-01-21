@@ -273,6 +273,7 @@ Start with these:
 
 * ✅ [The Markdown Guide](https://www.markdownguide.org/)
 * [Official Markdown Specification](https://daringfireball.net/projects/markdown/)
+* [MermaidJS](https://mermaid.js.org/) = Extended support for flow-charts, diagrams, etc. in Markdown files
 
 ## Note Taking
 
