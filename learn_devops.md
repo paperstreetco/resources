@@ -137,6 +137,8 @@ by the Trekie's at Google and born out something they called Borg. Resistence
 is futile! You will be assimilated!
 
 * ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
+* [Kubernetes 101](https://www.jeffgeerling.com/blog/2022/kubernetes-101-your-first-automation-jeff-geerling) by Jeff Geerling
+* [Ansible for Kubernetes](https://www.ansibleforkubernetes.com/) by Jeff Geerling
 * [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) – Free Tutorial
 * [KodeKloud.com](https://kodekloud.com/) – Learn-by-doing Platform
 * [Kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) – Kubernetes
@@ -461,6 +463,7 @@ _Resources coming soon_
 
 - [Bash scripting cheatsheet](https://devhints.io/bash) – Devhints
 - [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) – Google
+- curl [ysap.sh](https://ysap.sh/) – You Suck at Programming
 
 ## Windows
 
@@ -481,6 +484,18 @@ _Resources coming soon_
 ## Linux Security Hardening
 
 ### RHEL/Enterprise Linux Hardening
+
+#### Documentation & Tutorials
+
+- [OpenSCAP](https://www.open-scap.org/) – Security Content Automation Protocol (SCAP) scanner
+- [SCAP Security Guide](https://www.open-scap.org/security-policies/scap-security-guide/) – Security policies for Linux systems
+- [RHEL 9 Security Hardening Guide](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/) – Red Hat
+
+#### Books & Courses
+
+_Resources coming soon_
+
+#### Videos & Interactive
 
 _Resources coming soon_
 
@@ -550,7 +565,7 @@ _Resources coming soon_
 
 ### Policy as Code
 
-_Resources coming soon_
+- [ComplianceAsCode](https://github.com/ComplianceAsCode/content) – Security automation content in SCAP, Bash, Ansible, and other formats
 
 ## Security Information & Event Management (SIEM)
 
