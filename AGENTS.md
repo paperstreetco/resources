@@ -41,6 +41,40 @@ When editing markdown files in this repository, follow these formatting conventi
 - Include descriptive text for sections to provide context
 - Use "_Resources coming soon_" in italics for placeholder sections
 
+## Resource Structure Conventions
+
+When adding resources to any topic, use the following standardized subsection structure:
+
+### Standard Resource Categories (in this order):
+1. **Documentation & Tutorials** - Official docs, tutorials, guides, community discussions
+2. **Books & Courses** - Books, formal courses, certification materials
+3. **Videos & Interactive** - Video content, interactive platforms, hands-on labs
+
+### Implementation Examples:
+```markdown
+### Topic Name
+#### Documentation & Tutorials
+- [Official Documentation](url) – Source
+- [Tutorial Name](url) – Source
+- [Community Discussion](url) – Reddit
+
+#### Books & Courses  
+- [Book Title](url) by Author Name
+- [Course Name](url) – Platform
+
+#### Videos & Interactive
+- [Video Series](url) – YouTube
+- [Interactive Platform](url) – Platform
+```
+
+### Usage Guidelines:
+- Always maintain this order: Documentation → Books → Videos
+- Include author names for books: "by Author Name"
+- Include platform/source for courses and videos: "– Platform"
+- Use em-dashes (–) for source identification
+- Add personal commentary in italics after resources when valuable
+- Use "_Resources coming soon_" for empty categories
+
 ## Contributions Welcome
 
 PRs are welcome! Many sections show "_Resources coming soon_" and would benefit from quality resource additions.

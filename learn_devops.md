@@ -43,9 +43,15 @@ cover and are most often my go-to recommendations.
   - [DNS](#dns)
 - [Systems Administration](#systems-administration)
   - [Unix & Linux](#unix--linux)
+    - [General Linux Resources](#general-linux-resources)
+    - [Enterprise Linux](#enterprise-linux)
+    - [Bash & Linux CLI](#bash--linux-cli)
   - [Windows](#windows)
 - [Site Reliability Engineering](#site-reliability-engineering)
 - [Monitoring & Observability](#monitoring--observability)
+  - [Metrics & Visualization](#metrics--visualization)
+  - [Log Management & Analysis](#log-management--analysis)
+  - [Security Information & Event Management (SIEM)](#security-information--event-management-siem)
 - [Knowledge Management](#knowledge-management)
   - [Documentation](#documentation)
   - [Note Taking](#note-taking)
@@ -352,7 +358,9 @@ Start with these:
 
 ## Unix & Linux
 
-### Tutorials
+### General Linux Resources
+
+#### Tutorials
 
 * [Linux Upskill Challenge](https://linuxupskillchallenge.org/)\
   Level up your Linux skills to Jr. Linux Administrator in month's worth of
@@ -361,11 +369,65 @@ Start with these:
   on the
   [Discord](https://discord.gg/linux-upskill-challenge-682046666928685068).
 
-### Books
+#### Books
 
 * [Unix and Linux System Administration Handbook](https://www.admin.com/) by Evi Nemeth, et al.
 * [Systems Performance: Enterprise and the Cloud, 2nd Edition](https://www.brendangregg.com/systems-performance-2nd-edition-book.html) by Brendan Gregg
 * [Sudo Mastery](https://mwl.io/nonfiction/tools) by Michael W. Lucas
+
+### Enterprise Linux
+
+#### Red Hat Enterprise Linux (RHEL)
+
+##### RHCSA Certification
+
+Red Hat Certified System Administrator - fundamental Linux system administration skills.
+
+###### Documentation & Tutorials
+
+- [RHCSA Exam Objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam) – Red Hat
+- [Red Hat Certified System Administrator overview](https://www.reddit.com/r/linux/comments/s845x2/red_hat_certified_system_administrator_overview/) – Reddit
+- [RHCSA study materials](https://www.reddit.com/r/redhat/comments/8arqd9/rhcsa_study_materials/) – Reddit
+- [Best courses with hands-on labs for RHCSA](https://www.reddit.com/r/linuxadmin/comments/14zazsx/what_are_the_best_courses_with_hands_on_labs_to/) – Reddit
+
+###### Books & Courses
+
+- [RHCSA Red Hat Enterprise Linux 9: Training and Exam Preparation Guide (EX200), Third Edition](https://www.amazon.com/RHCSA-Enterprise-Linux-Training-Preparation/dp/1803243074) by Asghar Ghori\
+  _Good source. This source is more linux admin flavored, CLI-centric which I think more accurately reflects sysadmin day-to-day. The user is encouraged to "learn-by-doing" while following along... this is a solid approach to building muscle memory for the CLI I've found._
+
+- [Red Hat RHCSA 9 Cert Guide EX200](https://www.ciscopress.com/store/red-hat-rhcsa-9-cert-guide-ex200-9780138096335) by Sander van Vugt\
+  _Good source. Sander Van Vugt's courses are considered the defacto standard for prep, but I'm not sure if the book is as good as the courses... this source does seem to have better practical tips. For example, recommending using dnf provides to find what package needs to be installed to provide a command, and what man pages to refer to rather than memorizing complex or arcane syntax, such as semanage fcontext -a -t .... Some topics are not as complete and the coverage focuses on just what's needed for the exam. But exercises seem to be more relevant to what you're likely to actually encounter on the exam._
+
+###### Videos & Interactive
+
+- [RHCSA RHEL 9 Complete Video Course](https://www.pearsonitcertification.com/store/red-hat-rhcsa-rhel-9-complete-video-course-9780138097714) by Sander van Vugt\
+  _I didn't buy the course since I tend to prefer books over video lecture style courses. But this is considered by many to be the defacto standard when it comes to studying for the RHCSA exams. The book above comes with a pretty significant discount, so I recommend buying the book for the coupon._
+
+- [RHCSA Guru](https://www.rhcsaguru.com/)\
+  _I haven't tried this yet, but hands-on labs may be worth the price of admission. Similar concept to A Cloud Guru..._
+
+##### RHCE Certification
+
+Red Hat Certified Engineer - focuses on Ansible automation (90% Ansible-based since RHEL 8).
+
+###### Documentation & Tutorials
+
+_Resources coming soon_
+
+###### Books & Courses
+
+- [Red Hat RHCE 8 (EX294) Cert Guide](https://www.ciscopress.com/store/red-hat-rhce-8-ex294-cert-guide-9780135656495) by Sander van Vugt\
+  _A bit outdated. Refers to Ansible Tower instead of AAP. Based on RHEL 8 but current exam is RHEL 9. But Sander van Vugt's courses and books are still considered the defacto standard for preparing for both RHCSA and RHCE. His courses may be better, but I'm not 100% sold on how the content is structured in his books... it doesn't resonate as well with me compared to other written learning materials I've used._
+
+- [Red Hat Certified Engineer (RHCE) Ansible Automation Study Guide](https://developers.redhat.com/e-books/red-hat-certified-engineer-rhce-ansible-automation-study-guide) – Red Hat Developer\
+  _Free with developer subscription. A good overview of the objectives, but it's breadth vs depth. Probably best as a supplementary study source. Seems like Red Hat is trying to sell you courses, AAP, etc. by giving away this ebook for free._
+
+- ✅ [Ansible for DevOps](https://www.ansiblefordevops.com/) by Jeff Geerling\
+  _Still one of the best sources out there on learning Ansible IMO. But not directed at RHCE specifically._
+
+###### Videos & Interactive
+
+_Resources coming soon_
 
 ### Bash & Linux CLI
 
@@ -409,19 +471,27 @@ Start with these:
 
 # Monitoring & Observability
 
-## Grafana
+## Metrics & Visualization
+
+### Grafana
 
 _Resources coming soon_
 
-## Prometheus
+### Prometheus
 
 _Resources coming soon_
 
-## SIEM
+## Log Management & Analysis
+
+### Splunk
 
 _Resources coming soon_
 
-## Graylog
+### Graylog
+
+_Resources coming soon_
+
+## Security Information & Event Management (SIEM)
 
 _Resources coming soon_
 
