@@ -144,11 +144,11 @@ is futile! You will be assimilated!
 
 ### General CI/CD Resources
 
-- ✅ [Implementing a Full CI/CD Pipeline](https://acloudguru.com/course/implementing-a-full-ci-cd-pipeline) – A Cloud Guru
+_Resources coming soon_
 
 ### Jenkins
 
-- [Jenkins Quick Start](https://learn.acloud.guru/course/ee8938c3-1a8e-4d93-b0fe-ae989250e8dc/overview) – A Cloud Guru
+_Resources coming soon_
 
 ### GitLab CI/CD
 
@@ -177,7 +177,6 @@ _Resources coming soon_
   _This is the single best resource for learning Ansible that I've found._
 - [Ansible Up & Running](https://www.oreilly.com/library/view/ansible-up-and/9781098109141/) by Bas Meijer, Lorin Hochstein, and René Moser
 - [Ansible for the Absolute Beginner](https://www.udemy.com/course/learn-ansible/) – Udemy
-- [Ansible Quick Start](https://acloudguru.com/course/ansible-quick-start) – A Cloud Guru
 
 #### Videos & Interactive
 
@@ -404,7 +403,7 @@ Red Hat Certified System Administrator - fundamental Linux system administration
   _I didn't buy the course since I tend to prefer books over video lecture style courses. But this is considered by many to be the defacto standard when it comes to studying for the RHCSA exams. The book above comes with a pretty significant discount, so I recommend buying the book for the coupon._
 
 - [RHCSA Guru](https://www.rhcsaguru.com/)\
-  _I haven't tried this yet, but hands-on labs may be worth the price of admission. Similar concept to A Cloud Guru..._
+  _I haven't tried this yet, but hands-on labs may be worth the price of admission..._
 
 ##### RHCE Certification
 

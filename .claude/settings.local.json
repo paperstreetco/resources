@@ -3,7 +3,10 @@
     "allow": [
       "WebFetch(domain:agents.md)",
       "Bash(git add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:acloudguru.com)",
+      "WebFetch(domain:www.pluralsight.com)",
+      "WebFetch(domain:learn.acloud.guru)"
     ],
     "deny": [],
     "ask": []
