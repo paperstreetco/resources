@@ -47,11 +47,18 @@ cover and are most often my go-to recommendations.
     - [Enterprise Linux](#enterprise-linux)
     - [Bash & Linux CLI](#bash--linux-cli)
   - [Windows](#windows)
+- [Security & Compliance](#security--compliance)
+  - [Security Fundamentals](#security-fundamentals)
+  - [Linux Security Hardening](#linux-security-hardening)
+  - [Cloud Security](#cloud-security)
+  - [Container Security](#container-security)
+  - [DevSecOps Practices](#devsecops-practices)
+  - [Compliance & Auditing](#compliance--auditing)
+  - [Security Information & Event Management (SIEM)](#security-information--event-management-siem)
 - [Site Reliability Engineering](#site-reliability-engineering)
 - [Monitoring & Observability](#monitoring--observability)
   - [Metrics & Visualization](#metrics--visualization)
   - [Log Management & Analysis](#log-management--analysis)
-  - [Security Information & Event Management (SIEM)](#security-information--event-management-siem)
 - [Knowledge Management](#knowledge-management)
   - [Documentation](#documentation)
   - [Note Taking](#note-taking)
@@ -459,6 +466,96 @@ _Resources coming soon_
 
 * [Learn Windows PowerShell in a Month of Lunches](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches) by Travis Plunk, et al.
 
+# Security & Compliance
+
+## Security Fundamentals
+
+### Security Frameworks & Standards
+
+_Resources coming soon_
+
+### Risk Management & Threat Modeling
+
+_Resources coming soon_
+
+## Linux Security Hardening
+
+### RHEL/Enterprise Linux Hardening
+
+_Resources coming soon_
+
+### General Linux Security
+
+_Resources coming soon_
+
+## Cloud Security
+
+### Cloud Security Fundamentals
+
+_Resources coming soon_
+
+### AWS Security
+
+_Resources coming soon_
+
+### Azure Security
+
+_Resources coming soon_
+
+### GCP Security
+
+_Resources coming soon_
+
+## Container Security
+
+### Docker Security
+
+_Resources coming soon_
+
+### Kubernetes Security
+
+_Resources coming soon_
+
+### Image Scanning & Vulnerability Management
+
+_Resources coming soon_
+
+## DevSecOps Practices
+
+### Security in CI/CD
+
+_Resources coming soon_
+
+### Infrastructure as Code Security
+
+_Resources coming soon_
+
+### Secrets Management
+
+_Resources coming soon_
+
+### Supply Chain Security
+
+_Resources coming soon_
+
+## Compliance & Auditing
+
+### Compliance Frameworks
+
+_Resources coming soon_
+
+### Security Scanning & Auditing Tools
+
+_Resources coming soon_
+
+### Policy as Code
+
+_Resources coming soon_
+
+## Security Information & Event Management (SIEM)
+
+_Resources coming soon_
+
 # Site Reliability Engineering
 
 ## SRE Fundamentals
@@ -487,10 +584,6 @@ _Resources coming soon_
 _Resources coming soon_
 
 ### Graylog
-
-_Resources coming soon_
-
-## Security Information & Event Management (SIEM)
 
 _Resources coming soon_
 

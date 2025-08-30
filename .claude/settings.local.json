@@ -6,7 +6,8 @@
       "Bash(git push:*)",
       "WebFetch(domain:acloudguru.com)",
       "WebFetch(domain:www.pluralsight.com)",
-      "WebFetch(domain:learn.acloud.guru)"
+      "WebFetch(domain:learn.acloud.guru)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
