@@ -133,7 +133,7 @@ These resources may help make the complexity deamons manageable at least.
 ### Kubernetes
 
 Kubernetes (k8s) is the de facto standard for container orchestration. Developed
-by the Trekie's at Google and born out something they called Borg. Resistence
+by the Trekkies at Google and born out something they called Borg. Resistance
 is futile! You will be assimilated!
 
 * ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
