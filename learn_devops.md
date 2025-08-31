@@ -128,7 +128,7 @@ Podman is basically Docker but it's FOSS, and has batteries included.
 ## Container Orchestration
 
 Beware, here be dragons. Container orchestration is not for the faint of heart.
-These resources may help make the complexity deamons manageable at least.
+These resources may help make the complexity demons manageable at least.
 
 ### Kubernetes
 
