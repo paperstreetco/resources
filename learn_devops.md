@@ -621,7 +621,7 @@ _Resources coming soon_
 
 _Taking notes is akin to managing a personal "knowledge base"._
 
-Making a habit out of taking notes is one of the single greatest force-multipliers for the IT professional. Every exceptional developer, sysadmin, engineer, etc that I've worked with was a note-taker. The methodologies used doesn't seem to matter so much, but taking notes does.
+Making a habit out of taking notes is one of the single greatest force-multipliers for the IT professional. Every exceptional developer, sysadmin, engineer, etc that I've worked with was a note-taker. The methodologies used don't seem to matter so much, but taking notes does.
 
 - [How to Take Smart Notes](https://www.soenkeahrens.de/en/takesmartnotes) by Sönke Ahrens
 - [The Zettelkasten Method](https://zettelkasten.de/posts/overview/)\
