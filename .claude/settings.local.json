@@ -8,7 +8,11 @@
       "WebFetch(domain:www.pluralsight.com)",
       "WebFetch(domain:learn.acloud.guru)",
       "Bash(git commit:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(gh pr create:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)"
     ],
     "deny": [],
     "ask": []

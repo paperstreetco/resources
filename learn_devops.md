@@ -1,6 +1,6 @@
 ---
 title: DevOps Learning Resources
-date: 2025-08-29
+date: 2025-08-31
 draft: false
 author: Alex Kraker github.com/kraker
 ---
@@ -8,15 +8,68 @@ author: Alex Kraker github.com/kraker
 # DevOps Learning Resources
 
 **Author:** Alex Kraker [@kraker](https://github.com/kraker)\
-**Updated:** 2025-08-29
+**Updated:** 2025-08-31
 
 This is a curated collection of the DevOps learning resources that I've found
 to be the most useful or that my friends in the industry have recommended to me.
 Those with a ✅ are what I consider to be _best in class_ for the topic they
 cover and are most often my go-to recommendations.
 
+## TL;DR - Best in Class Resources
+
+_My top recommendations across all DevOps domains:_
+
+### DevOps Philosophy & Fundamentals
+
+- ✅ [The Phoenix Project](https://itrevolution.com/product/the-phoenix-project/) by Gene Kim
+- ✅ [The Grug Brained Developer](https://grugbrain.dev/)
+- ✅ [Google SRE Books](https://sre.google/books/) – The definitive SRE resources
+
+### Programming & Development
+
+- ✅ [Automate the Boring Stuff](https://automatetheboringstuff.com/) by Al Sweigart
+- ✅ [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
+- ✅ [Exercism](https://exercism.org/) - Programming practice
+- ✅ [freeCodeCamp](https://www.freecodecamp.org/) - Free resource for beginners
+
+### Infrastructure & Automation
+
+- ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
+- ✅ [Ansible for DevOps](https://www.ansiblefordevops.com/) by Jeff Geerling
+- ✅ [Packer Tutorial](https://developer.hashicorp.com/packer/tutorials) – HashiCorp Learn
+- ✅ [Vagrant Tutorials](https://developer.hashicorp.com/vagrant/tutorials) – HashiCorp Developer
+
+### Linux & Command Line
+
+- ✅ [The Linux Command Line](https://linuxcommand.org/tlcl.php) by William Shotts
+- ✅ [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html) – Learn Python the Hard Way
+- ✅ [RHCSA Red Hat Enterprise Linux 9: Training and Exam Preparation Guide](https://www.amazon.com/RHCSA-Enterprise-Linux-Training-Preparation/dp/1803243074) by Asghar Ghori
+- ✅ [Sudo Mastery](https://mwl.io/nonfiction/tools) by Michael W. Lucas
+- ✅ [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) – Google
+
+### Version Control & Collaboration
+
+- ✅ [git - the simple guide](https://rogerdudler.github.io/git-guide/) by Roger Dudler
+- ✅ [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- ✅ [Make Atomic Git Commits](https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/)
+
+### Documentation & Communication
+
+- ✅ [Docs as Code at Linode](https://www.linode.com/blog/linode/docs-as-code-at-linode/)
+- ✅ [The Markdown Guide](https://www.markdownguide.org/)
+
+### Networking & General CS
+
+- ✅ [Computer Networking: A Top-Down Approach](https://www.pearson.com/en-us/subject-catalog/p/computer-networking/P200000003334/9780136681557) by James F. Kurose
+- ✅ [RegexOne](https://regexone.com/) – Online regex tutorial
+- ✅ [Debuggex](https://www.debuggex.com/) – Visually debug regular expressions
+- ✅ [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+
+---
+
 ## Table of Contents
 
+- [TL;DR - Best in Class Resources](#tldr---best-in-class-resources)
 - [Getting Started](#getting-started)
   - [Points of Entry](#points-of-entry)
   - [DevOps Books](#devops-books)
@@ -33,28 +86,28 @@ cover and are most often my go-to recommendations.
   - [Image Building & Provisioning](#image-building--provisioning)
   - [Orchestration & Workflow](#orchestration--workflow)
 - [Development & Version Control](#development--version-control)
+  - [General Development](#general-development)
+  - [Coding Practice & Challenges](#coding-practice--challenges)
+  - [Learning Platforms](#learning-platforms)
   - [Programming Languages](#programming-languages)
   - [Source Code Management](#source-code-management)
   - [Regular Expressions](#regular-expressions)
 - [Networking](#networking)
+  - [General Networking Resources](#general-networking-resources)
   - [TCP/IP & Protocols](#tcpip--protocols)
   - [Routing & NAT](#routing--nat)
   - [IP Addressing & Subnetting](#ip-addressing--subnetting)
   - [DNS](#dns)
 - [Systems Administration](#systems-administration)
+  - [General Systems Administration](#general-systems-administration)
   - [Unix & Linux](#unix--linux)
     - [General Linux Resources](#general-linux-resources)
     - [Enterprise Linux](#enterprise-linux)
     - [Bash & Linux CLI](#bash--linux-cli)
   - [Windows](#windows)
 - [Security & Compliance](#security--compliance)
-  - [Security Fundamentals](#security-fundamentals)
-  - [Linux Security Hardening](#linux-security-hardening)
-  - [Cloud Security](#cloud-security)
-  - [Container Security](#container-security)
-  - [DevSecOps Practices](#devsecops-practices)
-  - [Compliance & Auditing](#compliance--auditing)
-  - [Security Information & Event Management (SIEM)](#security-information--event-management-siem)
+  - [Linux Security & Hardening](#linux-security--hardening)
+  - [DevSecOps & Policy as Code](#devsecops--policy-as-code)
 - [Site Reliability Engineering](#site-reliability-engineering)
 - [Monitoring & Observability](#monitoring--observability)
   - [Metrics & Visualization](#metrics--visualization)
@@ -70,8 +123,8 @@ cover and are most often my go-to recommendations.
 
 DevOps points of entry - not sure where to start? Start here:
 
-* [roadmap.sh \| DevOps Roadmap](https://roadmap.sh/devops)
-* [Reddit \| Getting into DevOps](https://www.reddit.com/r/devops/comments/yjdscp/getting_into_devops/?utm_source=share&utm_medium=web2x&context=3)
+- [roadmap.sh \| DevOps Roadmap](https://roadmap.sh/devops)
+- [Reddit \| Getting into DevOps](https://www.reddit.com/r/devops/comments/yjdscp/getting_into_devops/?utm_source=share&utm_medium=web2x&context=3)
 
 ## DevOps Books
 
@@ -87,29 +140,28 @@ General books on DevOps as a whole. What exactly is DevOps anyways? Nobody is re
 
 ### AWS
 
-*Resources coming soon*
-
 ### Azure
 
-*Resources coming soon*
-
 ### GCP
-
-*Resources coming soon*
 
 ## Virtualization
 
 ### VMware
 
-*Resources coming soon*
-
 ### VirtualBox
 
-*Resources coming soon*
+My favorite _type 2_ hypervisor is VirtualBox (VB) for spinning up VMs with
+[Vagrant](#vagrant). VB can be installed with the system package manager on many
+Linux distributions, but these tend to be out of date. I recommend using the
+official packages:
+
+- [Linux\_Downloads – Oracle VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 ### Proxmox VE
 
-*Resources coming soon*
+Debian-based, this is what I use in my homelab. I mostly have just used their
+official [Proxmox VE Documentation](https://pve.proxmox.com/pve-docs/) and the
+community [Proxmox VE Wiki](https://pve.proxmox.com/wiki/Main_Page).
 
 # Containerization & Orchestration
 
@@ -117,13 +169,19 @@ General books on DevOps as a whole. What exactly is DevOps anyways? Nobody is re
 
 ### Docker
 
-* [CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) – Docker
-* [Docker Mastery](https://www.udemy.com/course/docker-mastery/) – Udemy
-* [Docker Deep Dive](https://nigelpoulton.com/books/) by Nigel Poulton
+- [CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) – Docker
+- [Docker Mastery](https://www.udemy.com/course/docker-mastery/) – Udemy
+- [Docker Deep Dive](https://nigelpoulton.com/books/) by Nigel Poulton
 
 ### Podman
 
+_podman (pod manager)_\
 Podman is basically Docker but it's FOSS, and has batteries included.
+
+- [Podman](https://podman.io/)
+  - [Getting Started with Podman \| Podman](https://podman.io/docs)
+  - [Tutorials — Podman documentation](https://docs.podman.io/en/latest/Tutorials.html)
+- [How does rootless Podman work? \| Opensource.com](https://opensource.com/article/19/2/how-does-rootless-podman-work)
 
 ## Container Orchestration
 
@@ -136,16 +194,13 @@ Kubernetes (k8s) is the de facto standard for container orchestration. Developed
 by the Trekkies at Google and born out something they called Borg. Resistance
 is futile! You will be assimilated!
 
-* ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
-* [Kubernetes 101](https://www.jeffgeerling.com/blog/2022/kubernetes-101-your-first-automation-jeff-geerling) by Jeff Geerling
-* [Ansible for Kubernetes](https://www.ansibleforkubernetes.com/) by Jeff Geerling
-* [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) – Free Tutorial
-* [KodeKloud.com](https://kodekloud.com/) – Learn-by-doing Platform
-* [Kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) – Kubernetes
+- ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
+- [Kubernetes 101](https://www.jeffgeerling.com/blog/2022/kubernetes-101-your-first-automation-jeff-geerling) by Jeff Geerling
+- [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) – Free Tutorial
+- [KodeKloud.com](https://kodekloud.com/) – Learn-by-doing Platform
+- [Kubectl cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) – Kubernetes
 
 ### OKD/OpenShift
-
-*Resources coming soon*
 
 # Automation & Configuration Management
 
@@ -153,23 +208,15 @@ is futile! You will be assimilated!
 
 ### General CI/CD Resources
 
-_Resources coming soon_
-
 ### Jenkins
 
-_Resources coming soon_
+_Are we ready to let the Jenkins butler retire?_
 
 ### GitLab CI/CD
 
-_Resources coming soon_
-
 ### GitHub Actions
 
-_Resources coming soon_
-
 ### Azure DevOps
-
-_Resources coming soon_
 
 ## Configuration Management (CaC)
 
@@ -177,13 +224,14 @@ _Resources coming soon_
 
 #### Documentation & Tutorials
 
-- Official [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html)
+- Official [Ansible Documentation](https://docs.ansible.com/ansible/latest/index.html) – Ansible
 - [Getting started with Ansible](https://docs.ansible.com/ansible/latest/getting_started/index.html) – Ansible
 
 #### Books & Courses
 
 - ✅ [Ansible for DevOps](https://www.ansiblefordevops.com/) by Jeff Geerling\
   _This is the single best resource for learning Ansible that I've found._
+* [Ansible for Kubernetes](https://www.ansibleforkubernetes.com/) by Jeff Geerling
 - [Ansible Up & Running](https://www.oreilly.com/library/view/ansible-up-and/9781098109141/) by Bas Meijer, Lorin Hochstein, and René Moser
 - [Ansible for the Absolute Beginner](https://www.udemy.com/course/learn-ansible/) – Udemy
 
@@ -194,48 +242,40 @@ _Resources coming soon_
 
 ### Salt
 
-_Resources coming soon_
-
 ### Puppet
 
-_Resources coming soon_
-
 ### Chef
-
-_Resources coming soon_
 
 ## Infrastructure as Code (IaC)
 
 ### Terraform
 
-_Resources coming soon_
-
 ### OpenTofu
-
-_Resources coming soon_
 
 ### Pulumi
 
-_Resources coming soon_
-
+<!---
 ### AWS CloudFormation
 
-_Resources coming soon_
-
 ### Azure Resource Manager
-
-_Resources coming soon_
+-->
 
 ## Image Building & Provisioning
 
 ### Packer
 
+- ✅ [Packer Tutorial](https://developer.hashicorp.com/packer/tutorials) – HashiCorp Learn\
+  _Honestly the HashiCorp tutorials are usually pretty good for "quick start"._
 - [Official Packer Documentation](https://developer.hashicorp.com/packer/docs)
-- [Packer Tutorial](https://developer.hashicorp.com/packer/tutorials) – HashiCorp Learn
 
 ### Vagrant
 
-_Resources coming soon_
+Ever since reading "Ansible for DevOps" (see [Ansible](#ansible)) Vagrant has
+been a staple for quickly spinning up VM's in VirtualBox on my local workstation.
+It's become part of my daily workflow for testing, labbing, and prototyping.
+
+* ✅ [Tutorials \| Vagrant \| HashiCorp Developer](https://developer.hashicorp.com/vagrant/tutorials) - The tutorials are all you really need to get started.
+* [Vagrant Cheatsheet](https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4)
 
 ## Orchestration & Workflow
 
@@ -252,7 +292,20 @@ _Resources coming soon_
 ## General Development
 
 * ✅ [The Grug Brained Developer](https://grugbrain.dev/)
-* [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
+* ✅ [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)\
+  _This is my development philosophy._
+
+## Coding Practice & Challenges
+
+* ✅ [Exercism](https://exercism.org/)
+* [Project Euler](https://projecteuler.net/)
+* [Advent of Code](https://adventofcode.com/)
+
+## Learning Platforms
+
+- ✅ [freeCodeCamp](https://www.freecodecamp.org/) - Free resource!
+  _This is where I taught myself HTML/CSS/JS, and is great for the beginner._
+- [codecademy](https://www.codecademy.com/)
 
 ## Programming Languages
 
@@ -287,9 +340,10 @@ Version control and release management practices.
 #### Documentation & Tutorials
 
 - Official [Git Documentation](https://git-scm.com/docs)
-- ✅ [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) – Atlassian
+- [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) – Atlassian
 - ✅ [git - the simple guide](https://rogerdudler.github.io/git-guide/) by Roger Dudler
-- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- ✅ [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- ✅ [Make Atomic Git Commits](https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/)
 - [gittutorial](https://git-scm.com/docs/gittutorial) – Git
 - [giteveryday](https://git-scm.com/docs/giteveryday) – Git
 
@@ -304,8 +358,9 @@ Version control and release management practices.
 ## Regular Expressions
 
 * ✅ [RegexOne](https://regexone.com/) – Online tutorial\
-  _This is a great intro to RegEx that you can probably get through in a couple
-  of hours._
+  _This is a great intro to RegEx that you can probably get through in a couple of hours._
+* ✅ [Debuggex](https://www.debuggex.com/) – Visually debug regular expressions.\
+  _I can't tell you how useful it is to be able to visualize regex's._
 
 # Networking
 
@@ -319,8 +374,6 @@ Version control and release management practices.
 ## TCP/IP & Protocols
 
 _The [Internet Protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)._
-
-_Resources coming soon_
 
 ## Routing & NAT
 
@@ -372,16 +425,13 @@ Start with these:
 
 * [Linux Upskill Challenge](https://linuxupskillchallenge.org/)\
   Level up your Linux skills to Jr. Linux Administrator in month's worth of
-  daily challenges. I'm a contributor on this
-  [project](https://github.com/livialima/linuxupskillchallenge) and am active
-  on the
-  [Discord](https://discord.gg/linux-upskill-challenge-682046666928685068).
+  daily challenges. I'm an editor/contributor on this [project](https://github.com/livialima/linuxupskillchallenge).
 
 #### Books
 
 * [Unix and Linux System Administration Handbook](https://www.admin.com/) by Evi Nemeth, et al.
 * [Systems Performance: Enterprise and the Cloud, 2nd Edition](https://www.brendangregg.com/systems-performance-2nd-edition-book.html) by Brendan Gregg
-* [Sudo Mastery](https://mwl.io/nonfiction/tools) by Michael W. Lucas
+* ✅ [Sudo Mastery](https://mwl.io/nonfiction/tools) by Michael W. Lucas
 
 ### Enterprise Linux
 
@@ -389,7 +439,9 @@ Start with these:
 
 ##### RHCSA Certification
 
-Red Hat Certified System Administrator - fundamental Linux system administration skills.
+Red Hat Certified System Administrator. The exam is 100% practical so it really
+tests your hands-on knowledge. This is probably why it's such a trusted
+industry _badge_.
 
 ###### Documentation & Tutorials
 
@@ -400,16 +452,16 @@ Red Hat Certified System Administrator - fundamental Linux system administration
 
 ###### Books & Courses
 
-- [RHCSA Red Hat Enterprise Linux 9: Training and Exam Preparation Guide (EX200), Third Edition](https://www.amazon.com/RHCSA-Enterprise-Linux-Training-Preparation/dp/1803243074) by Asghar Ghori\
+- ✅ [RHCSA Red Hat Enterprise Linux 9: Training and Exam Preparation Guide (EX200), Third Edition](https://www.amazon.com/RHCSA-Enterprise-Linux-Training-Preparation/dp/1803243074) by Asghar Ghori\
   _Good source. This source is more linux admin flavored, CLI-centric which I think more accurately reflects sysadmin day-to-day. The user is encouraged to "learn-by-doing" while following along... this is a solid approach to building muscle memory for the CLI I've found._
 
 - [Red Hat RHCSA 9 Cert Guide EX200](https://www.ciscopress.com/store/red-hat-rhcsa-9-cert-guide-ex200-9780138096335) by Sander van Vugt\
-  _Good source. Sander Van Vugt's courses are considered the defacto standard for prep, but I'm not sure if the book is as good as the courses... this source does seem to have better practical tips. For example, recommending using dnf provides to find what package needs to be installed to provide a command, and what man pages to refer to rather than memorizing complex or arcane syntax, such as semanage fcontext -a -t .... Some topics are not as complete and the coverage focuses on just what's needed for the exam. But exercises seem to be more relevant to what you're likely to actually encounter on the exam._
+  _Good source. Sander Van Vugt's courses are considered the de facto standard for prep, but I'm not sure if the book is as good as the courses... this source does seem to have better practical tips. For example, recommending using `dnf provides` to find what package needs to be installed to provide a command, and what man pages to refer to rather than memorizing complex or arcane syntax, such as `semanage fcontext -a -t ...`. Some topics are not as complete and the coverage focuses on just what's needed for the exam._
 
 ###### Videos & Interactive
 
 - [RHCSA RHEL 9 Complete Video Course](https://www.pearsonitcertification.com/store/red-hat-rhcsa-rhel-9-complete-video-course-9780138097714) by Sander van Vugt\
-  _I didn't buy the course since I tend to prefer books over video lecture style courses. But this is considered by many to be the defacto standard when it comes to studying for the RHCSA exams. The book above comes with a pretty significant discount, so I recommend buying the book for the coupon._
+  _I didn't buy the course since I tend to prefer books over video lecture style courses. But this is considered by many to be the de facto standard when it comes to studying for the RHCSA exams. The book above comes with a pretty significant discount, so I recommend buying the book for the coupon._
 
 - [RHCSA Guru](https://www.rhcsaguru.com/)\
   _I haven't tried this yet, but hands-on labs may be worth the price of admission..._
@@ -425,7 +477,7 @@ _Resources coming soon_
 ###### Books & Courses
 
 - [Red Hat RHCE 8 (EX294) Cert Guide](https://www.ciscopress.com/store/red-hat-rhce-8-ex294-cert-guide-9780135656495) by Sander van Vugt\
-  _A bit outdated. Refers to Ansible Tower instead of AAP. Based on RHEL 8 but current exam is RHEL 9. But Sander van Vugt's courses and books are still considered the defacto standard for preparing for both RHCSA and RHCE. His courses may be better, but I'm not 100% sold on how the content is structured in his books... it doesn't resonate as well with me compared to other written learning materials I've used._
+  _A bit outdated. Refers to Ansible Tower instead of AAP. Based on RHEL 8 but current exam is RHEL 9. Sander van Vugt's courses and books are still considered the de facto standard for preparing for both RHCSA and RHCE._
 
 - [Red Hat Certified Engineer (RHCE) Ansible Automation Study Guide](https://developers.redhat.com/e-books/red-hat-certified-engineer-rhce-ansible-automation-study-guide) – Red Hat Developer\
   _Free with developer subscription. A good overview of the objectives, but it's breadth vs depth. Probably best as a supplementary study source. Seems like Red Hat is trying to sell you courses, AAP, etc. by giving away this ebook for free._
@@ -441,9 +493,9 @@ _Resources coming soon_
 
 #### Documentation & Tutorials
 
+- ✅ [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html) – Learn Python the Hard Way
 - [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 - [Greg's Wiki](https://mywiki.wooledge.org/)
-- ✅ [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html) – Learn Python the Hard Way
 - [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) by William Shotts
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 - [explainshell.com](https://explainshell.com/)
@@ -462,114 +514,28 @@ _Resources coming soon_
 #### Bash Scripting
 
 - [Bash scripting cheatsheet](https://devhints.io/bash) – Devhints
-- [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) – Google
+- ✅ [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) – Google
 - curl [ysap.sh](https://ysap.sh/) – You Suck at Programming
 
 ## Windows
 
-* [Learn Windows PowerShell in a Month of Lunches](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches) by Travis Plunk, et al.
+- [Learn Windows PowerShell in a Month of Lunches](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches) by Travis Plunk, et al.
 
 # Security & Compliance
 
-## Security Fundamentals
-
-### Security Frameworks & Standards
-
-_Resources coming soon_
-
-### Risk Management & Threat Modeling
-
-_Resources coming soon_
-
-## Linux Security Hardening
+## Linux Security & Hardening
 
 ### RHEL/Enterprise Linux Hardening
-
-#### Documentation & Tutorials
 
 - [OpenSCAP](https://www.open-scap.org/) – Security Content Automation Protocol (SCAP) scanner
 - [SCAP Security Guide](https://www.open-scap.org/security-policies/scap-security-guide/) – Security policies for Linux systems
 - [RHEL 9 Security Hardening Guide](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/security_hardening/) – Red Hat
 
-#### Books & Courses
-
-_Resources coming soon_
-
-#### Videos & Interactive
-
-_Resources coming soon_
-
-### General Linux Security
-
-_Resources coming soon_
-
-## Cloud Security
-
-### Cloud Security Fundamentals
-
-_Resources coming soon_
-
-### AWS Security
-
-_Resources coming soon_
-
-### Azure Security
-
-_Resources coming soon_
-
-### GCP Security
-
-_Resources coming soon_
-
-## Container Security
-
-### Docker Security
-
-_Resources coming soon_
-
-### Kubernetes Security
-
-_Resources coming soon_
-
-### Image Scanning & Vulnerability Management
-
-_Resources coming soon_
-
-## DevSecOps Practices
-
-### Security in CI/CD
-
-_Resources coming soon_
-
-### Infrastructure as Code Security
-
-_Resources coming soon_
-
-### Secrets Management
-
-_Resources coming soon_
-
-### Supply Chain Security
-
-_Resources coming soon_
-
-## Compliance & Auditing
-
-### Compliance Frameworks
-
-_Resources coming soon_
-
-### Security Scanning & Auditing Tools
-
-_Resources coming soon_
-
-### Policy as Code
+## DevSecOps & Policy as Code
 
 - [ComplianceAsCode](https://github.com/ComplianceAsCode/content) – Security automation content in SCAP, Bash, Ansible, and other formats
 
-## Security Information & Event Management (SIEM)
-
-_Resources coming soon_
+_Additional security resources coming soon_
 
 # Site Reliability Engineering
 
@@ -586,21 +552,13 @@ _Resources coming soon_
 
 ### Grafana
 
-_Resources coming soon_
-
 ### Prometheus
-
-_Resources coming soon_
 
 ## Log Management & Analysis
 
 ### Splunk
 
-_Resources coming soon_
-
 ### Graylog
-
-_Resources coming soon_
 
 # Knowledge Management
 
