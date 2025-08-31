@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:agents.md)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:acloudguru.com)",
+      "WebFetch(domain:www.pluralsight.com)",
+      "WebFetch(domain:learn.acloud.guru)",
+      "Bash(git commit:*)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
