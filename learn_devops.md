@@ -36,6 +36,7 @@ _My top recommendations across all DevOps domains:_
 
 - ✅ [The Kubernetes Book](https://nigelpoulton.com/books/) by Nigel Poulton
 - ✅ [Ansible for DevOps](https://www.ansiblefordevops.com/) by Jeff Geerling
+- ✅ [Terraform: Up and Running](https://www.terraformupandrunning.com/) by Yevgeniy Brikman
 - ✅ [Packer Tutorial](https://developer.hashicorp.com/packer/tutorials) – HashiCorp Learn
 - ✅ [Vagrant Tutorials](https://developer.hashicorp.com/vagrant/tutorials) – HashiCorp Developer
 
@@ -249,6 +250,9 @@ _Are we ready to let the Jenkins butler retire?_
 ## Infrastructure as Code (IaC)
 
 ### Terraform
+
+* ✅ [Terraform: Up and Running](https://www.terraformupandrunning.com/) by Yevgeniy Brikman
+* [Infrastructure as Code, third edition](https://infrastructure-as-code.com/book/) by Kief Morris
 
 ### OpenTofu
 
