@@ -507,6 +507,7 @@ _Resources coming soon_
 #### Books & Courses
 
 - ✅ [The Linux Command Line](https://linuxcommand.org/tlcl.php) by William Shotts
+- [The Complete Bash Scripting Course](https://course.ysap.sh/) by Dave Eddy (ysap.sh)
 - [Linux Command Line and Shell Scripting Bible](https://www.wiley.com/en-us/Linux+Command+Line+and+Shell+Scripting+Bible,+4th+Edition-p-9781119700937) by Richard Blum & Christine Bresnahan
 
 #### Videos & Interactive
