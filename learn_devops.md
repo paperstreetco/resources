@@ -313,6 +313,12 @@ _Resources coming soon_
 
 ## Programming Languages
 
+### HTML/CSS
+
+* ✅ [Learn to Code HTML & CSS - Beginner & Advanced](https://learn.shayhowe.com/)
+* [Responsive Web Design Certification \| freeCodeCamp.org](https://www.freecodecamp.org/learn/responsive-web-design-v9/)
+* [Head First HTML and CSS](https://wickedlysmart.com/hfhtmlcss/)
+
 ### Python
 
 #### Documentation & Tutorials
