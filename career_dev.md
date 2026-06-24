@@ -15,6 +15,7 @@ date: 2024-04-02
 
 * [/r/resumes: Resume Writing Guide](https://www.reddit.com/r/resumes/wiki/index/faq/)
 * [The Cloud Resume Challenge](https://cloudresumechallenge.dev/)
+* [RenderCV](https://github.com/rendercv/rendercv) - Define resume content in YAML and render to typographically correct PDF.
 
 ### Resume Writing Services
 
